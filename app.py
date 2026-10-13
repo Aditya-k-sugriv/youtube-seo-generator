@@ -95,4 +95,4 @@ if submitted:
                 st.markdown("---")
                 st.markdown(result_text)
                 
-            except Exception as e:
+            except Exception as e:st.error(f"An error occurred: {e}")
